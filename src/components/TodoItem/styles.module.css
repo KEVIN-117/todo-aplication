@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 99%;
+  padding: 20px 10px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg_planned {
+  background: rgba(0, 255, 255, 0.2);
+  box-shadow: 0 0 10px 2.5px rgb(0, 255, 255);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(3.5px);
+}
+
+.bg_done {
+  background: rgba(21, 94, 50, 0.2);
+  box-shadow: 0 0 10px 2.5px rgb(20, 83, 45);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(3.5px);
+  text-decoration: line-through;
+  text-decoration-color: red;
+  color: red;
+}
