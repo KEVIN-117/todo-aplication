@@ -30,7 +30,7 @@ export default function AppUi() {
     } = useContext(TodoContext)
     const { userName } = useContext(Authcontext)
     return (
-        <div className="w-[50%] h-[100vh] rounded-2xl flex flex-col gap-5 mx-auto p-3 overflow-hidden bg-transparent shadow-2xl shadow-indigo-500" >
+        <div className="md:w-[50%] w-full h-[100vh] rounded-2xl flex flex-col gap-5 mx-auto p-3 overflow-hidden bg-transparent shadow-2xl shadow-indigo-500" >
             <Counter completedTodos={completedTodos} totalTodos={totalTodos} userName={userName} />
             <Searched setSearchValue={setSearchValue} />
             <Todo>
